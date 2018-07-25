@@ -1,7 +1,7 @@
 # PairTrading
 This simple python script (df_no_factors.py) checks all the pairs in the SNP500 index for cointegration using the Augmented Dickey Fuller test and performs a performance analysis on the cointegrated pairs. 
 
-The time series data has been obtained using the Kaggle dataset and code at https://www.kaggle.com/camnugent/sandp500 . Many thanks. This data is in the file named quandl.csv. It can be found at https://drive.google.com/open?id=1dvM7k-jauLHPyea-I7kTd3LRDADfLaMs . I cannot upload this to the repository as it is more than 25 MB. 
+The time series data has been obtained using the Kaggle dataset and code at https://www.kaggle.com/camnugent/sandp500 . Many thanks. This data is in the file named quandl.csv. It can be found at https://drive.google.com/open?id=1dvM7k-jauLHPyea-I7kTd3LRDADfLaMs . I cannot upload this to the repository as it is more than 25 MB. Just keep the py file and the csv in the same repository and do not change any names. Run the py file and you are good to go. Since there are more than 100,000 possible pairs the script takes some time to run. Could be a couple of hours but after that you have all the results and you just need to analyze them to get your performance analysis.
 
 The results can be found at https://drive.google.com/open?id=1jXEDXwUtfAZ8VkpY1wGA4kYVcojV-QMV . I cannot add them to the repository as they are bigger than 25 MB. The results are from an anlysis performed in May 2018. I have separed pairs into 3 groups. One has pairs with positive Cumulative returns and sharpe ratios, one has pairs with negative cumulative returns and sharp ratios and one has pairs with either a negative sharpe ratio or a neagtive cumulative return.
 
